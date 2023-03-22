@@ -1,12 +1,20 @@
 # Counter
 
-## What is it?
+A simple website which updates the displayed number after every single click of decrease, reset or increase button.
 
-The counter is the website which updates the number displayed after every single click of decrease, reset or increase button. Written in React.
+## General information
+
+The purpose of creating this project was to exercise a JavaScript knowledge and to get familiar with React.
+
+## Built with
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [React](https://reactjs.org/
 
 ## Usage
 
-- Go on this website: https://melodious-sprinkles-54d2e3.netlify.app/.
-- Click the button "Decrease" to decrease the current number by 1.
-- Click the button "Reset" to reset the number to 0.
-- Click the button "Increase" to increase the current number by 1.
+- Go to the website.
+- Click the button *"Decrease"* to decrease the current number by 1.
+- Click the button *"Reset"* to reset the number to 0.
+- Click the button *"Increase"* to increase the current number by 1.
