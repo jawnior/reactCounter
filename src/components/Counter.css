@@ -1,0 +1,38 @@
+body {
+    font-family: "Ubuntu", "Roboto", "Open Sans";
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #404040;
+    text-align: center;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+
+#container {
+    display: inline-flex;
+    text-align: center;
+}
+
+#decrease,
+#reset,
+#increase {
+    padding: 20px 40px;
+    margin: 20px 40px;
+    border: black 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+#decrease:hover,
+#reset:hover,
+#increase:hover {
+    background-color: #282828;
+}
