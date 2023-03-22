@@ -2,6 +2,8 @@
 
 A simple website which updates the displayed number after every single click of decrease, reset or increase button.
 
+Live demo [_here_](https://app.netlify.com/sites/melodious-sprinkles-54d2e3)
+
 ## General information
 
 The purpose of creating this project was to exercise a JavaScript knowledge and to get familiar with React.
