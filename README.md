@@ -2,7 +2,7 @@
 
 A simple website which updates the displayed number after every single click of decrease, reset or increase button.
 
-Live demo [_here_](https://app.netlify.com/sites/melodious-sprinkles-54d2e3)
+Live demo [_here_](https://melodious-sprinkles-54d2e3.netlify.app/)
 
 ## General information
 
