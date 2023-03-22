@@ -10,7 +10,7 @@ The purpose of creating this project was to exercise a JavaScript knowledge and 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://www.w3schools.com/css/default.asp)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-- [React](https://reactjs.org/
+- [React](https://reactjs.org/)
 
 ## Usage
 
