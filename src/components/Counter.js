@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import './Counter.css';
 
 function Counter() {
     const [ count, setCount ] = useState(0);
+
+    useEffect(() => {
+        document.title = `Current number is ${count}`;
+    })
 
     const increment = () => {
         setCount((prev) => prev + 1);
@@ -17,7 +21,7 @@ function Counter() {
         setCount((prev) => prev - 1);
     };
 
-  return (
+    return (
     <div id="box">
         <h1>Counter</h1>
         <h1 id="number">{count}</h1>
