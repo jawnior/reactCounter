@@ -1,13 +1,12 @@
-import React, { useEffect } from 'react';
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Counter.css';
 
-function Counter() {
+function Counter({ seconds = 0 }) {
     const [ count, setCount ] = useState(0);
 
     useEffect(() => {
-        document.title = `Current number is ${count}`;
-    })
+          document.title = `Current number is: ${count}`;
+    }, [count])
 
     const increment = () => {
         setCount((prev) => prev + 1);
