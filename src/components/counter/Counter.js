@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Counter.css';
 
-function Counter({ seconds = 0 }) {
+function Counter() {
     const [ count, setCount ] = useState(0);
 
     useEffect(() => {
